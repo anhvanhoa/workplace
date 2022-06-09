@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/project/MoneyTip/fontawesome-free-6.0.0-web/css/all.min.css">
+    <link rel="stylesheet" href="/project/MoneyTip/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./form-login.css">
+    <!-- <link rel="stylesheet" href="/project/MoneyTip/grid-money.css"> -->
+    <link rel="stylesheet" href="/project/MoneyTip/responsion-money.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="login-account">
+        <div class="logo">
+            <div class="img-logo">
+                <i class="fa-solid fa-coins"></i>
+            </div>
+           <h3>Money</h3>
+           <div class="trademark">
+            <i class="fa-solid fa-trademark"></i>
+           </div>
+        </div>
+        <div class="container container-move">
+            <!-- form-login -->
+
+        <div class="form-login form-login-move">
+            <form action="" method="post">
+                <div class="header">
+                    <h2 class="heading-login">
+                        Login
+                    </h2>
+                    <h3 class="form-move">
+                        <div class="text-form-move">
+                            register
+                        </div>
+                        <div class="icon-form-move">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </h3>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="id-user-login" placeholder=" ">
+                    <label for="id-user-login">Email</label>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="id-password-login" placeholder=" ">
+                    <label for="id-password-login">Password</label>
+                </div>
+                <button type="submit" class="btn-login">Login</button>
+                <a href="">Forgot password?</a>
+            </form>
+        </div>
+
+        <!-- form register -->
+
+        <div class="form-register" id="form-register">
+            <form action="" method="post">
+                <div class="header">
+                    <h2 class="heading-login">
+                        Register
+                    </h2>
+                    <h3 class="form-move">
+                        <div class="text-form-move">
+                            login
+                        </div>
+                        <div class="icon-form-move">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </h3>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="email-register" placeholder=" ">
+                    <label for="email-register">Email</label>
+                    <div class="form-message"></div>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="full-name" placeholder=" ">
+                    <label for="full-name">Full name</label>
+                    <div class="form-message"></div>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="password-register" placeholder=" ">
+                    <label for="password-register">Password</label>
+                    <div class="form-message"></div>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="confirm-password" placeholder=" ">
+                    <label for="confirm-password">Confirm password</label>
+                    <div class="form-message"></div>
+                </div>
+                <button type="submit" class="btn-login">Register</button>
+            </form>
+        </div>
+    </div>
+    <script src="/library/logic-login.js"></script>
+    <script src="./form-login.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+@media (max-width: 1023px) {
+    .item-search {
+        width: 350px;
+    }
+}
+
+@media (max-width: 739px) {
+    .menu {
+        display: none;
+    }
+
+    .item-text {
+        display: none;
+    }
+
+    .icon-contact {
+        margin-right: 15px;
+    }
+
+    .footer-contact {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .account-list {
+        display: none;
+    }
+
+    .menu-ms {
+        display: flex;
+    }
+    
+}
+
+@media (max-width: 550px) {
+    .menu-ms {
+        width: 300px;
+        flex-wrap: wrap;
+    }
+
+    .content-share {
+        width: 300px;
+    }
+    
+    .input-ms-search {
+        width: 210px;
+    }
+}

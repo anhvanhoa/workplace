@@ -1,0 +1,205 @@
+@media (max-width: 1023px) {
+
+    html {
+        font-size: 65%;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .slider {
+        height: 330px;
+    }
+
+    .slider-one {
+        width: 100%;
+    }
+    .slider-two {
+        display: none;
+    }
+
+    .header-github,
+    .header-post {
+        padding: 50px 100px;
+    }
+
+    .title-post {
+        margin: 15px 0;
+    }
+
+    .item-post {
+        width: 20%;
+        padding: 10px 5px;
+
+    }
+
+    .btn-more {
+        width: 25%;
+    }
+}
+
+@media (max-width: 749px) {
+    html {
+        font-size: 55%;
+    }
+
+    .item-nav {
+        font-size: 2.4rem;
+        margin: 20px;
+        display: none;
+    }
+
+    .nav-mobile {
+        display: block;
+    }
+
+    .btn-follow {
+        height: 34px;
+    }
+
+    .search {
+        /* display: none; */
+        width: 34px;
+        height: 34px;
+        line-height: 34px;
+    }
+
+    .btn-follow { 
+        display: none;
+    }
+
+    .slider {
+        height: 280px;
+    }
+
+    .header-github,
+    .header-post {
+        padding: 40px 80px;
+        font-size: 4rem;
+    }
+
+    .banner-github {
+        width: 45%;
+    }
+
+    .item-post {
+        width: 30%;
+        height: 280px;
+    }
+
+    .item-post:nth-child(4),
+    .item-post:nth-child(5) {
+        display: none;
+    }
+
+    .banner-github {
+        margin-bottom: 20px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 549px) {
+
+    .menu-mobile {
+        display: block;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .product {
+        height: 310px;
+        padding: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .product:hover img {
+        transform: unset;
+        box-shadow: unset;
+    }
+
+    .box-github {
+        flex-wrap: wrap;
+    }
+
+    .banner-github {
+        width: 80%;
+        /* height: 120px; */
+    }
+
+
+}
+
+@media (max-width: 460px) {
+
+    html {
+        font-size: 50%;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .slider {
+        height: 190px;
+    }
+
+    .header-post,
+    .header-github {
+        padding: 30px 20px;
+        font-size: 3.5rem;
+    }
+
+    .box-post {
+        flex-wrap: wrap;
+    }
+
+    .item-post {
+        width: 80%;
+        height: 290px;
+    }
+
+    .item-post:nth-child(2),
+    .item-post:nth-child(4) {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+    }
+
+    .item-post:nth-child(5) {
+        display: block;
+    }
+
+    .title-post {
+        font-size: 2rem;
+    }
+
+    .btn-more {
+        font-size: 1.7rem;
+        margin-top: 20px;
+    }
+
+    .header {
+        font-size: 4rem;
+        margin: 30px ;
+    }
+
+    .product {
+        height: 220px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .box-footer {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .item-footer {
+        padding-top: 10px;
+        padding-left: 40px;
+    }
+}

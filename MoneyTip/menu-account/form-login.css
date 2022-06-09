@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@600&family=Inter:wght@300&family=Jura&family=Quicksand&family=Roboto+Slab&family=Zen+Loop&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 60%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.login-account {
+    background-color: #3391fd;
+    height: 100vh;
+    position: relative;
+}
+
+.container {
+    transform-style: preserve-3d;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transition: all linear 0.3s;
+}
+
+.container-move {
+    transform: translateX(-50%)
+    translateY(-50%)
+    rotateY(180deg);
+}
+
+.form-register,
+.form-login {
+    background-color: #fff;
+    width: 430px;
+    border-radius: 5px;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%)
+    translateY(-50%);
+    padding: 0 50px;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10px;
+}
+
+.heading-login {
+    font-size: 3rem;
+    border-left: #1481ff solid 5px;
+    padding-left: 5px;
+    letter-spacing: 1px;
+}
+
+.form-move {
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    padding: 4px 10px;
+    cursor: pointer;
+}
+
+
+.icon-form-move {
+    padding-top: 4px;
+    font-size: 1.5rem;
+    color: #1481ff;
+    padding-left: 3px;
+}
+
+.form-group {
+    padding: 20px 0px;
+    position: relative;
+}
+
+
+input {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-bottom: #000 solid 1px;
+    outline: none;
+    font-size: 1.7rem;
+    padding: 5px 5px;
+}
+
+
+label {
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    padding-left: 5px;
+    font-size: 1.7rem;
+    font-weight: 600;
+    pointer-events: none;
+    transition: all linear 0.2s;
+    color: rgb(82, 82, 82);
+}
+
+
+input:not(:placeholder-shown) ~ label {
+    transform: translateY(-150%);
+}
+
+input:focus ~ label{
+    transform: translateY(-150%);
+    font-size: 1.8rem;
+    color: blueviolet;
+}
+
+input:focus {
+    border-bottom: blueviolet solid 1px;
+}
+
+.btn-login {
+    width: 100%;
+    height: 40px;
+    font-size: 2rem;
+    background-color: #1481ff;
+    margin: 20px 0;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+
+.form-login-move {
+    transform: rotateY(180deg)
+    translateY(-50%)
+    translateX(50%);
+}
+
+a {
+    color: #000;
+    font-size: 1.5rem;
+    padding: 10px 0;
+    display: block;
+    text-align: right;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+    color: rgb(255, 255, 255);
+}
+
+.img-logo {
+    font-size: 3.5rem;
+}
+
+.logo h3 {
+    padding-left: 5px;
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.trademark {
+    font-size: 0.8rem;
+    padding-bottom: 10px;
+}
+
+.form-message {
+    position: absolute;
+    font-size: 1.3rem;
+    bottom: 2px;
+    font-weight: 600;
+}
+
+
+.error-input {
+    border-color: red;
+}
+
+.error-label,
+.error {
+    color: red;
+}
+
+.off {
+    display: none;
+}

@@ -1,0 +1,284 @@
+@media (max-width: 739px) {
+    .icon-notify {
+        margin-right: 0;
+    }
+    .footer-child:nth-child(2) {
+        padding-left: 20px;
+    }
+
+    .box-menu {
+        display: none;
+    }
+    .search {
+        display: none;
+    }
+    
+    .icon-menu {
+        display: none;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .message {
+        display: none;
+    }
+
+    .notification {
+        display: none;
+    }
+    .box-profile {
+        display: none;
+    }
+    
+    .menu-mobile {
+        display: flex;
+        width: 548px;
+    }
+
+    .img-profile {
+        display: none;
+    }
+
+    .img-profile-mobile {
+        display: block;
+    }
+}
+
+@media (max-width: 550px) {
+    .name-main {
+        font-size: 1.3rem;
+        padding-left: 5px;
+    }
+
+    .name-extra {
+        font-size: 1rem;
+        padding-left: 5px;
+        padding-right: 0;
+    }
+
+    .header-hot {
+        font-size: 1.5rem;
+    }
+
+    .text-hot li {
+        font-size: 1.1rem;
+    }
+
+    .synthetic-main {
+        font-size: 1.3rem;
+        padding-left: 5px;
+    }
+
+    .synthetic-extra {
+        font-size: 1rem;
+        padding-left: 5px;
+    }
+
+    .not-view {
+        padding: 5px 2px;
+    }
+
+    .code,
+    .url {
+        display: none;
+    }
+
+    .input-link {
+        min-width: 85%;
+        font-size: 1.3rem;
+    }
+
+    .link-url {
+        min-width: 100%;
+    }
+
+    .input-code {
+        font-size: 1.3rem;
+    }
+
+    .cp {
+        font-size: 1.3rem;
+    }
+
+    .search {
+        display: none;
+    }
+
+    #footer {
+        flex-direction: column;
+    }
+
+    .footer-child:nth-child(1) {
+        width: 100%;
+        padding-left: 10px;
+    }
+    .footer-child:nth-child(2) {
+        width: 100%;
+        padding-left: 10px;
+    }
+    
+    .footer-link {
+        flex-wrap: wrap;
+    }
+
+    .item-link  {
+
+        padding: 0 10px 5px 10px;
+
+    }
+    
+    .type-account {
+        font-size: 1.5rem;
+    }
+
+    .text-balance {
+        font-size: 1.7rem;
+    }
+    .name {
+        font-weight: 600;
+        font-size: 1.6rem;
+    }
+
+    .text {
+        font-size: 1.2rem;
+        padding-left: 5px;
+    }
+
+    .individual {
+        padding: 4px 5px;
+        flex-direction: column;
+        align-items: unset;
+    }
+
+    .btn-save {
+        font-size: 1.4rem;
+    }
+
+    .recharge, .withdraw {
+        padding: 0 10px;
+        font-size: 1.3rem;
+    }
+
+    .vip {
+        padding: 12px 0;
+    }
+
+    .key-name {
+        font-size: 1.5rem;
+    }
+
+    .box-careful,
+    .name-task {
+        font-size: 1.3rem;
+    }
+
+    .icon-invitation {
+        font-size: 3rem;
+    }
+
+    .heading-inviation {
+        font-size: 1.5rem;
+    }
+
+    .text-invitation {
+        font-size: 1,2rem;
+    }
+
+    .input-code,
+    .input-link {
+        margin-left: 0;
+    }
+
+    .box-invite-friend {
+        flex-direction: column;
+    }
+
+    .invitation {
+        width: 100%;
+        padding-bottom: 0;
+    }
+
+    .invite {
+        width: 100%;
+        padding: 0 10px 10px 10px;
+    }
+
+    .box-ref {
+        display: block;
+    }
+
+    .month {
+        font-size: 0.8rem;
+    }
+
+    .box-notify {
+        min-width: 300px;
+        width: 300px;
+        right: calc(100% - 120px);
+    }
+    .menu-mobile {
+        display: flex;
+        width: 97%;
+    }
+
+    .form-register,
+    .form-login {
+        width: 300px;
+        padding: 0 10px;
+    }
+
+    .heading-login {
+        font-size: 2.5rem;
+    }
+
+    .form-move {
+        font-size: 1.7rem;
+    }
+
+    .form-group label {
+        font-size: 1.5rem;
+    }
+
+    .btn-login {
+        font-size: 1.5rem;
+    }
+
+    .text-login {
+        right: 0;
+        height: 30px;
+        width: 80px;
+        line-height: 30px;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 1023px) {
+
+    .input-link,
+    .link-url {
+        min-width: 85%;
+    }
+    
+    .input-code,
+    .input-link {
+        font-size: 1.3rem;
+        width: 100%;
+    }
+
+    .code, .url {
+        display: none;
+    }
+}
+
+@media (max-width: 1199px) {
+    .month {
+        transform: rotate(45deg);
+        font-size: 1.3rem;
+    }
+
+    .indexing {
+        padding-bottom: 30px;
+    }
+}
